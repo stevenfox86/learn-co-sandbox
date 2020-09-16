@@ -50,6 +50,5 @@ puts "Song: #{song_element}"
           end
         end
       end
-    end
-  end
+    
 end
