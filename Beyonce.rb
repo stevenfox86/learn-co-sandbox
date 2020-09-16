@@ -34,9 +34,9 @@ music_library = [
 
 music_library.each do |artist_array|
 
-artist_array.each do |artist_element|
 
-if artist_element.class != Array
+
+if artist_array.class != Array
       puts "Artist: #{artist_element}"
     else
       artist_element.each do |album_element|
